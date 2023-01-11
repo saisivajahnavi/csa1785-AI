@@ -1,0 +1,15 @@
+print("enter the number of rows and columns:",end=" ")
+m,n=[int(i) for i in input().split()]
+m1=[]
+print("enter the value of matrix:")
+print()
+for i in range(m):
+    l=[int(i) for i in input().split()]
+    m1.append(l)
+print()
+print()
+print("matrix transpose=")
+for j in range(m):
+    for i in range(n):
+        print(m1[i][j],end=" ")
+    print()
