@@ -1,0 +1,10 @@
+print("list operations")
+l1=[1,2,3,4]
+l2=[5,6,7,8]
+print("nested list:",[l1,l2])
+print("length of list 1:",len(l1))
+print("concatenation",l1+l2)
+print("membership of 1 in list 1:",(1 in l1))
+print("iteration:",l1*3)
+print("3rd index element in l1:",l1[3])
+print("slicing:",l1[2:])
